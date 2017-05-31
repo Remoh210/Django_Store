@@ -3,7 +3,7 @@ from .forms import SubscriberForm
 
 
 def landing(request):
-    name = "Remoh210"
+    name = "Remoh3210"
     current_day = "05.01.2017"
     form = SubscriberForm(request.POST or None)
 
