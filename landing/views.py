@@ -3,8 +3,8 @@ from .forms import SubscriberForm
 
 
 def landing(request):
-    name = "Remoh310"
-    current_day = "05.01.2017"
+    name = "Remoh210"
+    current_day = "06.01.2017"
     form = SubscriberForm(request.POST or None)
 
     if request.method == "POST" and form.is_valid():
