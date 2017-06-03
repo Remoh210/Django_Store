@@ -3,27 +3,12 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bubbler+One|Play" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome!</title>
     <link rel="stylesheet" href="{% static 'style.css' %}">
-{#   <style>#}
-{#        html, body{#}
-{#            height: 100%;#}
-{#            max-height: 100%;#}
-{##}
-{#            background-image: url("http://www.powerpointhintergrund.com/uploads/sea-background-slides-11.jpg");#}
-{#            background-size: cover;#}
-{#            background-attachment: fixed;#}
-{#            }#}
-{#        .general-container{#}
-{#            height: 100%;#}
-{#        }#}
-{#        .top-container{#}
-{#            padding-top: 15%;#}
-{#        }#}
-{##}
-{#    </style>#}
 
 </head>
 <body>
@@ -31,9 +16,9 @@
         <div class="top-container">
             <div class="container">
                 <div class="row">
-                        <div class="col-sm-8 col-sm-offset-2 col-lg-6 col-lg-offset-3">
-                           <h1 class="title text-center ">Наш магазин скокоро откроется</h1>
-                           <h2 class="title text-center">Оставляйте ваш имейл ф форме ниже</h2>
+                        <div class="col-sm-8 col-sm-offset-2 col-lg-8 col-lg-offset-2">
+                           <h1 class="title text-center ">Наш магазин скокоро откроется<br>
+                           Оставляйте ваш имейл ф форме ниже</h1>
                             <div>
                                 <form action="" method="POST" class="form-inline text-center"> {% csrf_token %}
                                 <div class="form-group">

@@ -8,4 +8,5 @@ def landing(request):
     if request.method == "POST" and form.is_valid():
         print(form.cleaned_data)
         new_form = form.save()
+        form = SubscriberForm()
     return render(request, 'landing.html', locals())

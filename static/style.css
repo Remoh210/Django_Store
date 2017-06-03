@@ -2,12 +2,23 @@ html, body{
     height: 100%;
     max-height: 100%;
 }
+.title{
+    font-weight: 100;
+    color:white;
+}
 
 .general-container{
-    background-image: url("http://www.powerpointhintergrund.com/uploads/sea-background-slides-11.jpg");
+    background-image: url("http://wallpapercave.com/wp/TpOyl3e.jpg");
     background-size: cover;
     background-attachment: fixed;
     height: 100%;
+    background-attachment: fixed;
+    background-position: center center;
+
+    /*font-weight: 100;*/
+
+
+    font-family: "Roboto", sans-serif;
 
 }
 
