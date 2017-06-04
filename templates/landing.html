@@ -17,20 +17,25 @@
             <div class="container">
                 <div class="row">
                         <div class="col-sm-8 col-sm-offset-2 col-lg-8 col-lg-offset-2">
-                           <h1 class="title text-center ">Наш магазин скокоро откроется<br>
-                           Оставляйте ваш имейл ф форме ниже</h1>
-                            <div>
+                           <h1 class="title text-center ">Наш магазин скоро откроется<br>
+                           Оставляйте ваш имейл в форме ниже</h1>
+                        </div>
+                 </div>
+                        <div class="row">
+                            <div class="col-lg-8 col-lg-offset-2">
                                 <form action="" method="POST" class="form-inline text-center"> {% csrf_token %}
                                 <div class="form-group">
-                                    {{ form.name }}
+                                    <label></label>
+                                    <input type="text" name="{{ form.name.name }}" placeholder="Input your name" class="form-control">
                                 </div>
                                 <div class="form-group">
-                                    {{ form.email }}
+                                    <label></label>
+                                    <input type="email" name="{{ form.name.email }}" placeholder="Input your email" class="form-control">
                                 </div>
                                     <button type="submit" class="btn btn-primary">Send</button>
                                 </form>
                             </div>
-                        </div>
+                         </div>
                 </div>
             </div>
         </div>

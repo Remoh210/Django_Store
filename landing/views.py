@@ -10,3 +10,4 @@ def landing(request):
         new_form = form.save()
         form = SubscriberForm()
     return render(request, 'landing.html', locals())
+

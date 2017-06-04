@@ -9,13 +9,13 @@ class SubscriberForm(ModelForm):
         model = Subscriber
         exclude = [""]
 
-    name = forms.CharField(
-        widget=forms.TextInput(
-            attrs={'class': 'form-control', 'placeholder': 'Enter name here'}
-        )
-    )
-    email = forms.EmailField(
-        widget=forms.TextInput(
-            attrs={'class': 'form-control', 'placeholder': 'Enter your email here'}
-        )
-    )
+    # name = forms.CharField(
+    #     widget=forms.TextInput(
+    #         attrs={'class': 'form-control', 'placeholder': 'Enter name here'}
+    #     )
+    # )
+    # email = forms.EmailField(
+    #     widget=forms.TextInput(
+    #         attrs={'class': 'form-control', 'placeholder': 'Enter your email here'}
+    #     )
+    # )
