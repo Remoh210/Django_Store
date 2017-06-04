@@ -34,3 +34,9 @@ label{
 padding-top: 20%;
 
 }
+
+.product-item{
+    height: 200px;
+    background: gray;
+    position: relative;
+}
