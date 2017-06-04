@@ -1,42 +1,46 @@
 html, body{
     height: 100%;
     max-height: 100%;
-}
-.title{
-    font-weight: 100;
-    color:white;
-
-}
-
-label{
-    font-family: "Roboto", sans-serif;
-    color:white;
-    font-size: 15px;
-    font-weight: 100;
-}
-
-.general-container{
-    background-image: url("http://wallpapercave.com/wp/TpOyl3e.jpg");
-    background-size: cover;
-    height: 100%;
-    background-attachment: fixed;
-    background-position: center center;
-
-
-    /*font-weight: 100;*/
-
-
-    font-family: "Roboto", sans-serif;
-
-}
-
-.top-container{
-padding-top: 20%;
-
+    background-color: #edeef2;
 }
 
 .product-item{
-    height: 200px;
-    background: gray;
+    height: 320px;
+    background: white;
+    border: 1px solid lightgray;
     position: relative;
+    padding: 5px;
+    font-size: large;
 }
+
+.section-top{
+    margin-bottom: 20px;
+}
+
+.description{
+    font-size: medium;
+    color: darkgray;
+}
+
+.add-to-cart-btn{
+    position: absolute;
+    bottom: 10px;
+    left: 32%;
+    right: 32%;
+}
+
+.add-to-cart-btn{
+    position: absolute;
+    bottom: 5px;
+    left: 82px;
+}
+
+
+/*@media only screen and (min-width : 1200px) {*/
+
+    /*.pi{*/
+    /*width:  280px;*/
+    /*height: 160px;*/
+/*}*/
+
+/*}*/

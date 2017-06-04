@@ -1,0 +1,36 @@
+html, body{
+    height: 100%;
+    max-height: 100%;
+}
+.title{
+    font-weight: 100;
+    color:white;
+
+}
+
+label{
+    font-family: "Roboto", sans-serif;
+    color:white;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.general-container{
+    background-image: url("http://wallpapercave.com/wp/TpOyl3e.jpg");
+    background-size: cover;
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center center;
+
+
+    /*font-weight: 100;*/
+
+
+    font-family: "Roboto", sans-serif;
+
+}
+
+.top-container{
+padding-top: 20%;
+
+}

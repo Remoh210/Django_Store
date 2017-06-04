@@ -27,7 +27,7 @@ class Order(models.Model):
     customer_address = models.CharField(max_length=128, blank=True, null=True, default=None)
     total_price = models.DecimalField(max_digits=10, decimal_places=2, default=0)
     comment = models.TextField(max_length=128, blank=True, null=True, default=None)
-    status = models.ForeignKey(Status, blank=False)
+    status = models.ForeignKey(Status, blank=False, default=0)
     created = models.DateTimeField(auto_now_add=True, auto_now=False)
     updated = models.DateTimeField(auto_now_add=False, auto_now=True)
 
