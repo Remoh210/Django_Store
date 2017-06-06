@@ -4,6 +4,8 @@ html, body{
     background-color: #edeef2;
 }
 
+
+
 .product-item{
     height: 380px;
     background: white;
@@ -26,25 +28,14 @@ html, body{
     color: darkgray;
 }
 
-/*.p-i{*/
-    /*padding: 5px 20px;*/
-    /*position: relative;*/
-    /*float: left;*/
-    /*width:  100px;*/
-    /*height: 300px;*/
-    /*background-position: 50% 50%;*/
-    /*background-repeat:   no-repeat;*/
-    /*background-size:     cover;*/
+
+/*.add-to-cart-btn{*/
+    /*position: absolute;*/
+    /*bottom: 0px;*/
+    /*padding-bottom: 10px;*/
+    /*left: 32%;*/
+    /*right: 32%;*/
 /*}*/
-
-
-.add-to-cart-btn{
-    position: absolute;
-    bottom: 0px;
-    padding-bottom: 10px;
-    left: 32%;
-    right: 32%;
-}
 
 /*.add-to-cart-btn{*/
     /*position: absolute;*/
@@ -53,16 +44,32 @@ html, body{
 /*}*/
 
 
-/*@media only screen and (min-width : 1200px) {*/
+@media only screen and (max-width: 768px) and (min-width: 520px) {
 
-    /*.pi{*/
-    /*width:  280px;*/
-    /*height: 160px;*/
-/*}*/
+    .product-item {
+        height: 444px;
 
-/*}*/
+    }
+}
+@media only screen and (max-width: 420px){
+        .product-item {
+        height: 330px;
 
+    }
+}
 .section-top{
     height: 500px;
 }
 
+.bc{
+    position: absolute;
+    padding-bottom: 5px;
+
+}
+
+.button-row{
+    display: flex;
+    justify-content: center;
+
+
+}
